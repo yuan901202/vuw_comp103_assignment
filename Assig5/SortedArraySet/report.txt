@@ -1,0 +1,27 @@
+COMP 103 Assignment 5
+Report on SortedArraySet testing and benchmarking
+
+Name: Tianfu Yuan
+User Name: yuantian
+ID: 300228072
+
+Testing:
+Which test methods succeeded or failed on your implementation of SortedArraySet:
+
+All test methods succeeded.
+
+
+
+
+
+Performance Benchmarking:
+What were the results of your timing tests?
+(Give the time to load the dictionary and the time to check the story, for 
+  - SortedArraySet, ArraySet, and HashSet.
+  - dictionaryUnsorted.txt and dictionarySorted.txt 
+
+For "dictionaryUnsorted.txt":
+Loading took: 17.614 seconds
+Checking took: 1.079 seconds
+
+

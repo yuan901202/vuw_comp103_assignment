@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArraySet()
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\ Returns\ number\ of\ elements\ in\ collection\ as\ integer\ \n
+comment2.params=item
+comment2.target=boolean\ add(java.lang.Object)
+comment2.text=\ Add\ the\ specified\ element\ to\ this\ set\ (if\ it\ is\ not\ a\ duplicate\ of\ an\ element\n\ \ already\ in\ the\ set).\n\ \ Will\ not\ add\ the\ null\ value\ (throws\ an\ IllegalArgumentException\ in\ this\ case)\n\ \ Return\ true\ if\ the\ collection\ changes,\ and\ false\ if\ it\ did\ not\ change.\n
+comment3.params=item
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=Return\ true\ if\ this\ set\ contains\ the\ specified\ element.
+comment4.params=item
+comment4.target=boolean\ remove(java.lang.Object)
+comment4.text=\ Remove\ an\ element\ matching\ a\ given\ item\n\ \ Return\ true\ if\ the\ item\ was\ present\ and\ then\ removed.\n\ \ Make\ no\ change\ to\ the\ set\ and\ return\ false\ if\ the\ item\ is\ not\ present.\n
+comment5.params=
+comment5.target=java.util.Iterator\ iterator()
+comment5.text=Return\ an\ iterator\ over\ the\ elements\ in\ this\ set.
+comment6.params=
+comment6.target=void\ ensureCapacity()
+comment6.text=\ Ensure\ data\ array\ has\ sufficient\ number\ of\ elements\n\ \ to\ add\ a\ new\ element\ \n
+comment7.params=item
+comment7.target=int\ findIndex(java.lang.Object)
+comment7.text=\ Find\ the\ index\ of\ an\ element\ in\ the\ dataarray,\ or\ -1\ if\ not\ present\n\ \ Assumes\ that\ the\ item\ is\ not\ null\ \n
+numComments=8

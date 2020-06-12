@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=str
+comment0.target=GeneralTreeNode(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getData()
+comment2.params=parent
+comment2.target=void\ setParent(GeneralTreeNode)
+comment3.params=
+comment3.target=GeneralTreeNode\ getParent()
+comment4.params=children
+comment4.target=void\ setChildren(java.util.Set)
+comment5.params=
+comment5.target=java.util.Set\ getChildren()
+comment6.params=child
+comment6.target=void\ removeChild(GeneralTreeNode)
+comment7.params=location
+comment7.target=void\ setLocation(Location)
+comment8.params=
+comment8.target=Location\ getLocation()
+numComments=9

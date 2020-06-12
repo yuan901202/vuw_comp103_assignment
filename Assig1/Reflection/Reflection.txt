@@ -1,0 +1,21 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Write a paragraph that describes an aspect of the material we've covered 
+so far (ie. anything in the first 4 lectures, or this assignment) that 
+you found particularly interesting or tricky to understand. Include how 
+you went about exploring further, learning about the issue to your own 
+satisfaction. If understanding it remains a problem for you, outline 
+what your next step will be in sorting this out.
+--------------------------------------------------------------------
+
+We have learned last week is that about collections, which can be use arraylist to store the information if we want. 
+And array list have some features, like no maximum, no initial size and no explicit count.
+The difficult way to make assignment like Klondike is put cards into target piles. 
+As a result, I need learn more stuff in the Java language.

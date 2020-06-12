@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TwitterCloud()
+comment1.params=button
+comment1.target=void\ buttonPerformed(java.lang.String)
+comment1.text=Responds\ to\ the\ buttons
+comment2.params=filename
+comment2.target=void\ readTweetFile(java.lang.String)
+comment2.text=\ Initialises\ the\ fields\ to\ empty\ HashMap's,\ and\ reads\ a\ file\ of\ tweets,\n\ \ \ \ constructing\ the\ wordFrequency\ map\ (core)\ and\n\ \ \ \ the\ wordIndex\ map\ (completion).\n\ \ \ \ Reads\ each\ tweet\ as\ a\ whole\ line\ from\ the\ file.\n\ \ \ \ For\ each\ tweet,\ wraps\ the\ tweet\ in\ a\ Scanner,\ and\ reads\ each\ word\ from\ the\ tweet.\n\ \ \ \ For\ each\ word,\ increments\ its\ count\ in\ the\ wordFrequency\ table,\n\ \ \ \ and\ (for\ the\ completion)\ adds\ the\ tweet\ to\ the\ words'\ entry\ in\ the\ wordIndex\ map.\n
+comment3.params=
+comment3.target=void\ drawCloud()
+comment3.text=\ Draws\ a\ "cloud"\ of\ all\ the\ more\ frequent\ words.\n\ \ \ \ For\ each\ word\ in\ the\ wordFrequency\ map,\ whose\ frequency\ is\ above\n\ \ \ \ some\ threshold,\ draw\ the\ word\ with\ a\ size\ and\ color\ that\ depends\n\ \ \ \ on\ the\ frequency\ of\ the\ word,\ at\ a\ random\ position\ on\ the\ graphics\ pane.\n
+comment4.params=freq
+comment4.target=void\ setSizeAndColor(int)
+comment4.text=\ Sets\ the\ font\ size\ and\ the\ colour,\ depending\ on\ the\ argument.\n\ \ \ \ The\ higher\ the\ frequency,\ the\ larger\ the\ size\ and\ the\ darker\ the\ colour.\n
+comment5.params=word
+comment5.target=void\ searchTweets(java.lang.String)
+comment5.text=\ Prints\ all\ the\ tweets\ that\ contain\ a\ given\ word.\n\ \ \ \ Asks\ the\ user\ for\ a\ word,\ and\ then\ looks\ it\ up\ in\ the\ wordIndex\n\ \ \ \ to\ find\ the\ list\ of\ tweets.\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

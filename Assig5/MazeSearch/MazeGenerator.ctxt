@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=size
+comment0.target=MazeGenerator(int)
+comment1.params=
+comment1.target=Cell\ getEntrance()
+comment2.params=
+comment2.target=Cell\ getExit()
+comment3.params=
+comment3.target=java.lang.Iterable\ getDirectionsShuffled()
+comment4.params=cell\ direction
+comment4.target=Cell\ getNeighbour(Cell,\ MazeGenerator.Direction)
+comment5.params=maze\ x\ y
+comment5.target=Cell\ checkValid(Cell[][],\ int,\ int)
+numComments=6

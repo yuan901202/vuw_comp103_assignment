@@ -1,0 +1,37 @@
+COMP 103 Assignment 4 
+Report on ArraySet testing and benchmarking
+
+Name: Tianfu Yuan
+Usercode: yuantian
+ID: 300228072
+
+Testing:
+Which test methods succeeded or failed on your implementation of ArraySet:
+
+First time run "ArraySetTestCore" all (total 8) succeeded used 12ms.
+But run "ArraySetTestCompletion" 12 of 13 succeeded and 1 of 13 failed used 40ms, which is "removingitems" implementation of ArraySet. 
+
+Second time run both of test methods, all methods succeeded.
+
+
+Benchmarking:
+What were the results of your timing tests?
+(Give the time to load the dictionary and the time to check the story, for both
+ArraySet and HashSet.)
+
+Dictionary loaded.
+-------------------------------
+ Loading took: 4.708 seconds
+ Checking took: 0.332 seconds
+
+plato
+-------------------------------
+ Loading took: 4.487 seconds
+ Checking took: 1.748 seconds
+
+hamlet
+-------------------------------
+ Loading took: 3.916 seconds
+ Checking took: 3.845 seconds
+
+

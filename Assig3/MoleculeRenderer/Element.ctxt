@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name\ radius\ color
+comment0.target=Element(java.lang.String,\ int,\ java.awt.Color)
+comment0.text=\ Constructor\ 1\ requires\ the\ name\ of\ the\ element,\ the\ radius,\ and\ a\ color.\n
+comment1.params=scan
+comment1.target=Element(java.util.Scanner)
+comment1.text=\ Constructor\ 2\ requires\ a\ Scanner\ from\ which\ the\ name\ of\ the\ element,\n\tthe\ radius,\ and\ the\ three\ components\ of\ a\ color\ can\ be\ read\n
+numComments=2

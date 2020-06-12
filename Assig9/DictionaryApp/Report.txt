@@ -1,0 +1,19 @@
+Student ID: 300228072
+
+MARKER'S GUIDE
+==============
+I attempted / completed the following BSTSet.java methods:
+(list one method per line below here)
+
+- contains(item)
+- add(item)
+- height()
+- remove(item)
+
+REPORT
+======
+Height of the BST after inserting dictionary.txt : 38
+Height of the BST after removing bad-words.txt : 38
+Timing of the BST implementation for adding dictionary.txt : 25.321s
+Timing of the HashSet implementation for adding dictionary.txt : 37.377s
+

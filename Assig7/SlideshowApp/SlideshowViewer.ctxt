@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SlideshowViewer()
+comment1.params=firstImage
+comment1.target=void\ showViewerUI(ImageNode)
+comment1.text=\n\ Changes\ the\ graphics\ display\ in\ the\ UI\ to\ now\ show\ the\ viewer.\ In\ particular,\ the\ first\ image\ in\ the\n\ slideshow\ will\ be\ visible\ on\ screen.\ Sets\ the\ viewer\ to\ active\ so\ it\ can\ now\ respond\ to\ button\ presses.\ \n\ \n\ @param\ \ \ firstImage\ \ \ \ \ a\ reference\ to\ the\ first\ node\ in\ the\ list\ for\ viewing.\n
+comment2.params=
+comment2.target=void\ hideViewerUI()
+comment3.params=name
+comment3.target=void\ buttonPerformed(java.lang.String)
+comment3.text=\n\ This\ method\ is\ called\ when\ a\ button\ that\ this\ object\ is\ listening\ to\ is\ pressed.\n\ The\ first\ thing\ it\ does\ is\ check\ if\ the\ viewer\ is\ currently\ active.\ If\ not,\ then\ it\ simply\ returns\ and\ ignores\ the\ button\ press.\n\ Otherwise,\ it\ calls\ the\ appropriate\ helper\ method.\n\ \n\ @param\ \ \ name\ \ \ \ The\ name\ of\ the\ button\ pressed.\n
+comment4.params=
+comment4.target=void\ redraw()
+comment4.text=\n\ Uses\ the\ currentImage\ integer\ field\ as\ a\ positional\ index\ into\ the\ linked\ list.\n\ Once\ the\ file\ name\ has\ been\ retrieved\ from\ that\ index,\ then\ it\ can\ be\ displayed\ in\ the\ UI.\n\ \n
+comment5.params=
+comment5.target=void\ next()
+comment5.text=\n\ Increments\ the\ currently\ selected\ index,\ assuming\ we're\ not\ already\ at\ the\ end\ of\ the\ list.\n\ Forces\ a\ redraw\ if\ the\ index\ has\ changed.\n
+comment6.params=
+comment6.target=void\ previous()
+comment6.text=\n\ Decrements\ the\ currently\ selected\ index,\ assuming\ we're\ not\ already\ at\ the\ start\ of\ the\ list.\n\ Forces\ a\ redraw\ if\ the\ index\ has\ changed.\n
+comment7.params=
+comment7.target=void\ slideshow()
+comment7.text=\n\ Starting\ at\ the\ beginning,\ this\ method\ goes\ through\ a\ timed\ loop\ of\ the\ list's\ indices,\ continually\ \n\ incrementing\ the\ currently\ selected\ index\ by\ using\ the\ "next()"\ method,\ and\ then\ forcing\ a\ redraw.\n\ \n
+numComments=8

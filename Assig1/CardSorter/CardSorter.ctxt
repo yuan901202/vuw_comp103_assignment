@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CardSorter()
+comment0.text=\ Set\ up\ the\ mouse\ listener,\ and\ set\ up\ the\n\ \ \ \ \ \ \ \ the\ deck\ (a\ list\ of\ shuffled\ cards),\ the\ hand,\ and\ the\ discard\ pile,\n\ \ \ \ To\ set\ up\ the\ deck,\ it\ creates\ lots\ of\ new\ Cards,\ adds\ them\ to\ the\ stack,\n\ \ \ \ then\ shuffles\ it.\n\ \ \ \ (There\ is\ a\ method\ in\ Collections\ for\ shuffling\ lists\ and\ stacks\!)\ \n\ \ \ \ Then\ draws\ everything\n
+comment1.params=action\ x\ y
+comment1.target=void\ mousePerformed(java.lang.String,\ double,\ double)
+comment1.text=\ All\ behaviour\ is\ determined\ by\ where\ the\ mouse\ is\ released,\ and\ whether\n\ \ \ \ \ \ there\ is\ a\ currently\ selected\ card.\n\ \ \ \ If\ the\ mouse\ position\ is\ on\ the\ deck\ stack,\ then\n\ \ \ \ \ \ \ take\ the\ top\ card\ from\ the\ deck\ and\ add\ it\ to\ the\ hand.\n\ \ \ \ If\ the\ mouse\ position\ is\ on\ a\ position\ of\ a\ card\ in\ the\ hand\:\n\ \ \ \ \ \ \ it\ either\ selects\ the\ card,\ or\ moves\ the\ currently\ selected\ card\n\ \ \ \ \ \ \ to\ this\ place\n\ \ \ \ Otherwise\n\ \ \ \ \ \ \ if\ there\ is\ a\ currently\ selected\ card,\ then\n\ \ \ \ \ \ \ \ \ take\ the\ selected\ card\ out\ of\ the\ hand\ and\ put\ it\ on\ the\ discard\ pile\n
+comment2.params=
+comment2.target=void\ takeFromDeck()
+comment2.text=Move\ a\ card\ from\ the\ deck\ (if\ there\ is\ one)\ to\ the\ hand
+comment3.params=z
+comment3.target=void\ moveToDiscard(java.util.Stack)
+comment3.text=\ \ \ Move\ the\ selected\ card\ (if\ there\ is\ one)\ from\ the\ hand\ to\ the\ discard\ pile\n
+comment4.params=index
+comment4.target=void\ pickCardInHand(int)
+comment4.text=\ Act\ on\ a\ card\ at\ the\ position\ index\ in\ the\ hand\:\n\ \ \ \ \ \ \ \ if\ there\ is\ no\ card\ currently\ selected,\ then\ select\ the\ card.\n\ \ \ \ \ \ \ \ if\ there\ is\ a\ card\ selected,\ then\ move\ the\ selected\ card\ to\ this\ place.\n
+comment5.params=x\ y\ cardX\ cardY
+comment5.target=boolean\ pointAtPlace(double,\ double,\ double,\ double)
+comment5.text=would\ the\ point\ (x,y)\ be\ on\ top\ of\ a\ card\ placed\ at\ (cardX,\ cardY)
+comment6.params=
+comment6.target=void\ redraw()
+comment6.text=\ Redraw\ the\ table\ with\ the\ deck,\ the\ hand,\ and\ the\ discard\ pile.\n\ \ The\ deck\ shows\ the\ back\ of\ the\ top\ card,\ and\ the\ discard\ pile\ shows\n\ \ the\ front\ of\ the\ top\ card.\n\ \ The\ hand\ shows\ each\ card,\ with\ the\ selected\ card\ sticking\ out\ a\ little\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

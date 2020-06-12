@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=s\ r
+comment0.target=Card(java.lang.String,\ int)
+comment0.text=Create\ a\ new\ Card\ of\ the\ given\ suit\ and\ rank.
+comment1.params=
+comment1.target=java.lang.String\ getSuit()
+comment2.params=
+comment2.target=int\ getRank()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=x\ y
+comment4.target=void\ draw(double,\ double)
+comment4.text=Draws\ the\ front\ of\ a\ card\ on\ the\ UI.\ Does\ not\ repaint\ the\ graphics
+comment5.params=x\ y
+comment5.target=void\ drawBack(double,\ double)
+comment5.text=Draws\ the\ back\ of\ a\ card\ on\ the\ UI.\ Does\ not\ repaint\ the\ graphics
+comment6.params=name
+comment6.target=java.awt.Image\ getImage(java.lang.String)
+comment6.text=\ Method\ to\ get\ the\ image\ associated\ with\ a\ given\ name\ out\ of\ the\ zip\ file.\n\tBy\ storing\ the\ image\ rather\ than\ the\ image\ file\ name,\n\ \ \ \ \ \ \ \ the\ drawing\ is\ much\ faster\ -\ it\ does\ not\ have\ to\ read\nthe\ image\ file\ each\ time\ it\ draws\ the\ card.
+numComments=7

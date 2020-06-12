@@ -1,0 +1,23 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Reading and understanding someone else's code is difficult.  What elements of
+Sokoban made it easier or made it  more difficult for you to understand?  Can
+you identify things that you would do or avoid doing if you were trying to make
+your own code easily understood by someone else?
+
+What is the point of comparators?  Why are they necessary in general? Could you
+suggest an alternative way of solving the same problems that didn't involve
+having to make these additional classes?
+
+--------------------------------------------------------------------
+
+For example, the "doAction()" has "agentDirection" is quite difficult to understand. And also the "Coord" is hardly to understand what this mean. If we do our codes, we should state what this method will do and clearly explain after each method. And we should avoid to use nonstandard class name to make difficult understand by someone else.
+
+Compare with two different objects can be use Comparator method. Because the comparator can be used to control the order of certain data structures. We could use if…else to compare some collection of objects. If we only compare the number, we could use math.max or math.min to print out the maximum number or minimum number.

@@ -1,0 +1,37 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. If there was a problem
+you got stuck on, what was that problem?
+
+
+* SlideshowViewer didn't modify the list of ImageNode objects, and so retrieved the
+first ImageNode from SlideshowCreator. 
+How and why would this design have failed if SlideshowViewer could also modify the
+list as well? What would also have needed to be done to solve this design failure?
+
+* How would the existence of an ImageList class that encapsulated the entire
+sequence of ImageNode objects have simplified the SlideshowCreator class?
+
+* Do the recursive and iterative versions of the ImageNode methods have the same
+complexity, and why / why not? 
+
+----------------------------------------------------------------
+
+On this assignment, I learned how to use iterative and recursive method.
+For "SlideshowCreator", I learned how to use linked list.
+For "ImageNode", I learned how to use linked list.
+
+* If SlideshowViewer also modify the list as well, Java will be exist when you try to run it. Because closures exist in Java in the form of anonymous classes already.
+We could do loop through the list.
+
+* The ImageList class compared with the SlideshowCreator class, they use recursive or iterative method and try to add the new node in the list.
+
+* The recursive and iterative methods did not have the same complexity. On my implementation, the method is have different complexity. The recursive is less efficient than the iterative method.
+

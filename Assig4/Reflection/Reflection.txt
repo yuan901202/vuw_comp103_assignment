@@ -1,0 +1,30 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. If there was a problem
+you got stuck on, what was that problem?
+
+
+Java provides several different implementations of the =Set= type, including =HashSet= and
+=TreeSet=.  Why didn't it provide =ArraySet= ?  (After all, it provided the
+=ArrayList= implementation of the =List= type!).
+
+
+Coming up with good test methods can be as hard as writing the code that it is
+testing.  Suggest some guidelines or principles for writing good test methods.
+
+
+--------------------------------------------------------------------
+
+For this assignment we learned how to testing our methods and make arrayset.
+There have a problem got stuck on which is how to make arrayset faster, because I quite confused about binary search.
+
+It didn't provide ArraySet because the ArraySet cannot list all items that it contain. The ArraySet not allowed duplicate.
+
+Writing good JUnit tests is just as important as writing high-quality code. A well written JUnit tests can prevent several issues during initial development or later maintenance in Java code. 

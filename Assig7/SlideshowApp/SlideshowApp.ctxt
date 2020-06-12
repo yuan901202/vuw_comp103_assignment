@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SlideshowApp()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ SlideshowApp\n
+comment1.params=
+comment1.target=void\ initialise()
+comment1.text=\n\ Initialises\ the\ UI\ window,\ and\ sets\ up\ the\ buttons\ and\ their\ listeners\ in\ the\ input\ pane.\ Note\ that\ there\ are\ \n\ different\ listeners\ for\ different\ buttons,\ as\ all\ of\ the\ buttons\ are\ only\ relevant\ to\ one\ mode\ (e.g.\ creator\ or\ viewer)\ \n\ or\ the\ other.\ As\ an\ exception,\ SlideshowApp\ is\ also\ set\ up\ to\ be\ the\ listener\ to\ the\ two\ buttons\ that\ control\ switching\ between\ the\ \n\ creator\ and\ the\ viewer\ modes,\ and\ starts\ the\ program\ in\ creator\ mode.\n\n
+comment2.params=name
+comment2.target=void\ buttonPerformed(java.lang.String)
+comment2.text=\n\ Supports\ switching\ between\ the\ two\ different\ modes.\ Note\ that\ switching\ to\ viewer\ mode\ also\ requires\n\ the\ additional\ step\ of\ retrieving\ the\ list\ that\ was\ generated\ by\ the\ creator\ mode.\ \n\ \n\ Makes\ sure\ that\ only\ one\ mode\ is\ active\ at\ any\ one\ point\ in\ time,\ so\ that\ button\ presses\ for\ the\ \n\ hidden\ view\ don't\ accidentally\ perform\ actions.\ The\ hidden\ view's\ buttonPerformed\ method\ will\ still\ be\ called,\n\ but\ logic\ in\ those\ methods\ will\ ensure\ no\ action\ takes\ place.\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

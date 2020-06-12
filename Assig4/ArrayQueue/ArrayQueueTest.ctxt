@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testIsEmptyOnEmptyQueue()
+comment1.params=n
+comment1.target=java.util.Queue\ createAQueue(int)
+comment1.text=\n\ Create\ a\ queue\ with\ n\ elements\ ("m0",\ "m1",\ "m2",\ "m3"...)\n
+comment10.params=
+comment10.target=void\ testIterator()
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ testEmptyQueueHasSizeZero()
+comment3.params=
+comment3.target=void\ testPollPeekEmptyQueue()
+comment4.params=
+comment4.target=void\ testOfferToEmptyQueue()
+comment5.params=
+comment5.target=void\ testRepeatedOffer()
+comment6.params=
+comment6.target=void\ testOfferNull()
+comment7.params=
+comment7.target=void\ testPeekPoll()
+comment8.params=
+comment8.target=void\ testSizeAfterOfferingAndPolling()
+comment9.params=
+comment9.target=void\ testSizeWhenGrowing()
+numComments=12

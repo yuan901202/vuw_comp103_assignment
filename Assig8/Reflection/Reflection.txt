@@ -1,0 +1,23 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. If there was a problem
+you got stuck on, what was that problem?
+
+* When you load in the same taxonomy from file over and over again, you may notice that some times the tree is displayed differently. Why?
+
+* In the inSubtree(...) method used in the completion, we try to ensure that if a node is moved (along with it's subtree), then it isn't moved into it's own subtree. Discuss two problems that could occur if we allowed a node (along with it's subtree) to become a child of one of the nodes in that subtree.
+
+----------------------------------------------------------------
+
+For this assignment, I learned how to use tree method which is creates, manipulates and queries data stored in general trees. 
+
+* The tree was displayed differently almost every time, because the root could be has the same order, but the children may different when the program load a file.
+
+* One problem is it not trying to move a node in a way that makes it become a child of one of it's existing descendants. Another is problem is that it duplicate with two child which means that parent is children or could say the children is parent.

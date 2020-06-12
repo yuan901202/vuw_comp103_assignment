@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=x\ y\ z\ color\ radius
+comment0.target=Atom(double,\ double,\ double,\ java.awt.Color,\ double)
+comment0.text=Constructor\:\ requires\ the\ position,\ color,\ and\ radius
+comment1.params=
+comment1.target=double\ getX()
+comment2.params=
+comment2.target=double\ getY()
+comment3.params=
+comment3.target=double\ getZ()
+comment4.params=other\ angle
+comment4.target=int\ further(Atom,\ double)
+comment4.text=\ Return\ negative\ number\ if\ this\ atom\ is\ behind\ other,\ when\ viewed\n\ \ from\ the\ specified\ angle\ (in\ degrees).\ \n\ \ 0\ degrees\ corresponds\ to\ viewing\ from\ the\ front;\n\ \ 90\ degrees\ corresponds\ to\ viewing\ from\ the\ right;\n
+comment5.params=angle
+comment5.target=void\ render(double)
+comment5.text=\ Render\ the\ atom\ on\ the\ graphics\ pane,\ from\ the\ specified\ angle\ (degrees)\n\ \ with\ the\ specified\ size\ and\ color\n\ \ The\ angle\ is\ an\ angle\ in\ the\ horizontal\ plane,\ corresponding\n\ \ to\ an\ angle\ as\ the\ user\ walks\ around\ a\ model\ of\ the\ molecule.\n\ \ 0\ degrees\ corresponds\ to\ viewing\ from\ the\ front;\n\ \ 90\ degrees\ corresponds\ to\ viewing\ from\ the\ right;\n
+numComments=6

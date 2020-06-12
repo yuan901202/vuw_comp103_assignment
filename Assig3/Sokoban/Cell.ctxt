@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=Cell(java.lang.String)
+comment1.params=
+comment1.target=boolean\ hasBox()
+comment1.text=Whether\ there\ is\ a\ box\ on\ this\ cell
+comment2.params=
+comment2.target=boolean\ free()
+comment2.text=Whether\ the\ cell\ is\ free\ to\ move\ onto
+comment3.params=
+comment3.target=Cell\ moveOff()
+comment3.text=The\ cell\ you\ get\ if\ you\ push\ a\ box\ off\ this\ cell
+comment4.params=
+comment4.target=Cell\ moveOn()
+comment4.text=The\ cell\ you\ get\ if\ you\ push\ a\ box\ on\ to\ this\ cell
+numComments=5

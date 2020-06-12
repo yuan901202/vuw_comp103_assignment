@@ -1,0 +1,91 @@
+COMP 103 Assignment 6
+Report on Sorting testing and benchmarking
+
+Name: Tianfu Yuan
+User Name: yuantian
+ID: 300228072
+
+Performance Benchmarking:
+
+======Selection Sort=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       8.54 s
+
+======Selection Sort2=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       6.40 s
+
+
+======Insertion Sort=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       4.03 s
+
+======Insertion Sort2=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       0.61 s
+
+
+======Merge Sort=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       0.05 s
+
+======Merge Sort2=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       0.04 s
+
+
+======Quick Sort=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       0.04 s
+
+======Quick Sort2=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       0.03 s
+
+
+======Bubble Sort=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       52.16 s
+
+======Bubble Sort1=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       39.54 s
+
+======Bubble Sort2=======
+
+Number of items:  50,000
+Sorted correctly: true
+Time taken:       14.27 s
+
+
+Observation: 
+The bubble sort is the slowest sort in all sorting methods. And quick sort is the fastest sort in all sorting methods.
+
+Comparing with the time of the different sorting methods:
+BubbleSort > BubbleSort1 > BubbleSort2 > SelectionSort > SelectionSort2 > InsertionSort > InsertionSort2 > MergeSort > QuickSort > QuickSort2
+
+Conclusion:
+The quick sort is the fastest sorting method. We use the median of the three values of the subrange to sorting items. 
+
+Reflection:
+I learned choose the correct sorting method is very important in our assessment. For this experiment, I learned how to created a sorting method in appropriate situation.

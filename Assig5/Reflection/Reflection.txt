@@ -1,0 +1,47 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. If there was a problem
+you got stuck on, what was that problem?
+
+
+Some of the recursive algorithms in this assignment could have been written
+just as easily using simple loops.
+
+Which recursive methods could have been easily written with loops?
+
+What are the advantage(s) or disadvantage(s) of using recursive methods 
+rather than loops.
+
+Why couldn't the others be easily written with loops?
+
+Many people find recursion hard to understand at first, although it doesn't do
+anything different from previous programs - it just involves methods which call
+methods.  Why is it tricky?
+
+--------------------------------------------------------------------
+
+For this assignment, there has one problem stuck me on that is sorting using recursion problem. I found not figure out the method of recursion.
+
+The method of "add" and "remove" can be easily written with loops.
+
+Advantages for recursive methods:
+1)Faster than loops.
+2)More efficient.
+3)Simpler version.
+
+Disadvantages for recursive methods:
+1)Not easily understand. The while loop is simplest to understand.
+2)Sometime it is not faster than loop. For example, store another stack frame.
+3)Even a small mistake can take the whole program failure.
+4)The algorithm may require large amounts of memory if the depth of the recursion is very large.
+
+The others cannot be easily written with loops, because the method is the same type of the problems.
+
+Because it is a method calls itself to solve some problem.

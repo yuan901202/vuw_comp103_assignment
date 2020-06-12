@@ -1,0 +1,16 @@
+animal 3
+feline 2
+panther 2
+tiger 0
+jaguar 0
+domestic 2
+tortoise-shell 0
+tabby 0
+equine 3
+draught 0
+racing 0
+rocking 0
+fish 2
+shark 1
+Jaws 0
+goldfish 0

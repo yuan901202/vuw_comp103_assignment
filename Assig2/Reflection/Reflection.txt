@@ -1,0 +1,41 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Characterise the different collection classes that you have used in this and 
+the previous assignment.  
+
+Why is the Map different from the other collections? (eg, it isn't even a subtype
+of the Collection type).
+
+What is the advantage of declaring a variable to be of type List<Card> but then
+putting a new ArrayList<Card>() into the variable? Why not just declare the
+type to be ArrayList<Card> ?
+
+In FastFood, you needed to iterate down the queue to draw the queue of
+orders. Why is this a violation of the Queue type?  Why do you think Java
+allows you to do it anyway?  What might be a disadvantage of Java allowing you
+to do this?
+
+There are several different ways of making the TwitterCloud program not display
+a single tweet more than once when listing the tweets that a word is
+in. Describe two ways, and discuss the difference in efficiency of each way.
+
+
+--------------------------------------------------------------------
+
+The different collection classes have different characterise, like sorted, sequential, no duplicated and using values. Specifically, we use HashMap in our assignment that is using values. And also we use ArrayList to sort data that is sorted.
+
+The Map is different from the other collections. Because the map is a set of pairs of keys and values that means it is not of single value, and it get values from keys.
+
+The advantages are no maximum, no initial size and no explicit count for use variable List<Card> better than before create new ArrayList<Card>. As a result, we do not need to specify its size.
+
+There are two different types of queue that is ordinary queue and priority queue. I use poll() and peek() in the FastFood. The poll() is about if the queue is empty, remove and return value of front/head of queue or null. Exactly which element is removed from the queue is a function of the queue's ordering policy, which differs from implementation to implementation. The peek() is about if queue is empty, return value at head of queue or null. The add() method, which queue inherits from collection, and it would violate the queue's capacity restrictions. However, we use poll() and peek() method, so it is not violation of the queue type. As a result, the Java allow to do it in this way. And the disadvantage is may delete first few items when add few elements.
+
+One method is use not contains() method, and other method is use two for loops.
+Use "!contains" is just print tweet that not contain the same words. Use two for loops, we need to scan the tweet twice, and then print the tweet once. 

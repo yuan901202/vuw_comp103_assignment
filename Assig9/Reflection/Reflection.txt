@@ -1,0 +1,28 @@
+/* Reflection.txt for COMP103
+ * Name: Tianfu Yuan
+ * Usercode: yuantian
+ * ID: 300228072
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. If there was a problem
+you got stuck on, what was that problem?
+
+
+* Having completed the add(...) and find(...) methods, record how long it takes the set to be built from the data in the dictionary.txt file. You can use a similar approach to that in assignment 4. Record this time in your Report.txt file. As well as this, substitute a standard HashSet for your BSTSet, and rerun the timing experiment. Record how long adding the dictionary into the HashSet takes, and record this time in your Report.txt file. Briefly compare the two times in this Reflection.txt file
+
+* Why is O(log n) performance for finding a node in a binary search tree not guaranteed for all finds on all binary search trees?
+
+* An in-order traversal of a binary search tree provides the data in sorted order. Will a pre-order traversal of a binary search tree provide the data in the order it was originally inserted? If so, why, if not, why not?
+
+----------------------------------------------------------------
+
+For this assignment, I learned how to use binary search tree which include add or remove item to a BSTSet.
+
+* The time of the BST implementation is 25.321s and the time of HashSet implementation is 37.377s.
+
+* Because the different data structures. For example, the cost of unsorted array to find in BST is O(n), sorted array is O(log n), unsorted linked list is O(n) and sorted linked list is O(n).
+
+* No. Because pre-order traversal is process the node, then process the subtrees. 

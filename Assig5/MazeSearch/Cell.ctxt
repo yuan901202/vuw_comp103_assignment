@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Cell(int,\ int)
+comment1.params=visited
+comment1.target=void\ setVisited(boolean)
+comment2.params=
+comment2.target=boolean\ isVisited()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

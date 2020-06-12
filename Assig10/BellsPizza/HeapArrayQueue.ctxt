@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HeapArrayQueue()
+comment1.params=
+comment1.target=void\ ensureCapacity()
+comment2.params=
+comment2.target=int\ size()
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=index
+comment4.target=void\ pushup(int)
+comment5.params=index
+comment5.target=void\ pushdown(int)
+comment6.params=from\ to
+comment6.target=void\ swap(int,\ int)
+numComments=7

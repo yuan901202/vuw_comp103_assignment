@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=d\ dt\ dl\ ot\ u
+comment0.target=Pizza(java.lang.String,\ int,\ int,\ int,\ boolean)
+comment0.text=\ Construct\ a\ new\ Pizza\ object\n
+comment1.params=
+comment1.target=java.lang.String\ destination()
+comment2.params=
+comment2.target=int\ deadline()
+comment3.params=
+comment3.target=int\ deliveryTime()
+comment4.params=
+comment4.target=int\ orderedTime()
+comment5.params=
+comment5.target=boolean\ urgent()
+comment6.params=other
+comment6.target=int\ compareTo(Pizza)
+comment6.text=\ This\ pizza\ is\ ordered\ before\ the\ other\ pizza\ if\n\ \ \ \ its\ deadline\ is\ earlier.\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
